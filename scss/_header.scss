@@ -1,0 +1,32 @@
+.header__container{
+  width: 100%;
+  z-index: 15;
+  position: relative;
+}
+.header {
+  margin-inline: 80px;
+  padding-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "chronicle display";
+  color: #FFFFFF;
+
+
+  #{&}__menu {
+    & a {
+      font-family: "gilroySemi";
+      text-decoration: none;
+      margin-left: 2.5em;
+      line-height: 0.82px;
+      color: #FFFFFF;
+    }
+  }
+  &__account{
+    display: flex;
+    align-items: center;
+    & p{
+        margin-left: 10px;
+    }
+  }
+}

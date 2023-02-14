@@ -1,0 +1,31 @@
+.image {
+  margin-top: -6em;
+  z-index: -1;
+  position: relative;
+
+  &_linear {
+    width: 100%;
+    margin-top: -5px;
+  }
+  &_bg {
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    left: 0;
+    z-index: -5;
+  }
+  &_content1 {
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    z-index: 5;
+    left: 0;
+  }
+  &_content2 {
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 520px;
+    left: 0;
+  }
+}

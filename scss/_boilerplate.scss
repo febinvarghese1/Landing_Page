@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+@font-face {
+  font-family: "chronicle display";
+  src: url("./chronicle-display/ChronicleDisp-XLight.otf");
+}
+@font-face {
+  font-family: "gilroySemi";
+  src: url("./gilroy/Gilroy-SemiBold.ttf");
+}
+@font-face{
+  font-family: "gilroyMed";
+  src: url("./gilroy/Gilroy-Medium.ttf");
+}
+body{
+    overflow-x: hidden;
+    background-color: #0b1d26;
+
+}
+
+.main {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__wrapper{
+    max-width: 1440px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+}
