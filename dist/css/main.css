@@ -242,12 +242,13 @@ body {
 }
 
 .content {
-  margin-top: 22em;
+  margin-top: 26em;
 }
 .content__cover {
   width: 100%;
   position: relative;
   z-index: 1;
+  height: 100%;
   top: -150px;
 }
 .content__items {
@@ -278,6 +279,7 @@ body {
   color: white;
   position: relative;
   margin-left: 300px;
+  margin-right: 100px;
 }
 .content__val_first h2 {
   font-family: Chronicle Display;
@@ -287,7 +289,7 @@ body {
 }
 .content__val_first p {
   font-family: gilroySemi;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 1.7;
   margin-block: 27px;
@@ -320,8 +322,7 @@ body {
   margin-left: 16px;
 }
 .content__val_second {
-  margin-left: 100px;
-  margin-right: 229px;
+  margin-right: 180px;
 }
 .content__val_second img {
   height: 540px;

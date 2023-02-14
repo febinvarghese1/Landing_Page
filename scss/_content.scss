@@ -1,11 +1,12 @@
 @use "./hero";
 
 .content {
-  margin-top: 22em;
+  margin-top: 26em;
   &__cover {
     width: 100%;
     position: relative;
     z-index: 1;
+    height: 100%;
     top: -150px;
   }
   &__items {
@@ -37,6 +38,7 @@
       color: white;
       position: relative;
       margin-left: 300px;
+      margin-right: 100px;
       & h3 {
         @extend .hero__center_heading;
       }
@@ -49,7 +51,7 @@
       }
       & p {
         font-family: gilroySemi;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 300;
         line-height: 1.7;
         margin-block: 27px;
@@ -86,8 +88,7 @@
       }
     }
     &_second {
-      margin-left: 100px;
-      margin-right: 229px;
+      margin-right: 180px;
       & img {
         height: 540px;
         width: 425px;
