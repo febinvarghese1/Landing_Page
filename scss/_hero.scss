@@ -2,23 +2,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -40em;
+  margin-top: -42.5em;
 
   &__left {
     display: flex;
     align-items: center;
     flex-direction: column;
     color: white;
+    margin-top: 100px;
+    margin-left: 32px;
     & span {
       transform: rotate(90deg);
+      width: 80px;
       margin-bottom: 36px;
       font-family: gilroyMed;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 700;
       line-height: 0.81px;
     }
     & i {
-      margin-top: 30px;
+      margin-top: 10px;
     }
   }
 
@@ -26,6 +29,8 @@
     max-width: 950px;
     width: 100%;
     margin: 0 auto;
+    margin-left: 256px;
+    margin-right: 286px;
     & div {
       display: flex;
       align-items: center;
@@ -40,6 +45,7 @@
         margin-top: 32px;
       }
       & i {
+        cursor: pointer;
         animation: animateIcon 2s infinite linear;
       }
     }
@@ -47,7 +53,7 @@
     &_heading {
       color: #fbd784;
       font-family: gilroySemi;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 500;
       line-height: 1.225;
       letter-spacing: 6px;
@@ -70,7 +76,7 @@
 
     &_content {
       font-family: Chronicle Display;
-      font-size: 4.5rem;
+      font-size: 4rem;
       font-weight: 600;
       color: white;
       line-height: 1.13;

@@ -6,7 +6,7 @@
 
 .header {
   margin-inline: 80px;
-  padding-top: 64px;
+  padding-top: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,15 +86,15 @@ body {
 .image_content1 {
   width: 100%;
   position: absolute;
-  top: 300px;
+  top: 360px;
   z-index: 5;
   left: 0;
 }
 .image_content2 {
   width: 100%;
-  z-index: 10;
+  z-index: 15;
   position: absolute;
-  top: 520px;
+  top: 540px;
   left: 0;
 }
 
@@ -102,29 +102,34 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -40em;
+  margin-top: -42.5em;
 }
 .hero__left {
   display: flex;
   align-items: center;
   flex-direction: column;
   color: white;
+  margin-top: 100px;
+  margin-left: 32px;
 }
 .hero__left span {
   transform: rotate(90deg);
+  width: 80px;
   margin-bottom: 36px;
   font-family: gilroyMed;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 0.81px;
 }
 .hero__left i {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .hero__center {
   max-width: 950px;
   width: 100%;
   margin: 0 auto;
+  margin-left: 256px;
+  margin-right: 286px;
 }
 .hero__center div {
   display: flex;
@@ -140,12 +145,13 @@ body {
   margin-top: 32px;
 }
 .hero__center div i {
+  cursor: pointer;
   animation: animateIcon 2s infinite linear;
 }
 .hero__center_heading, .content__val_first h3 {
   color: #fbd784;
   font-family: gilroySemi;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 1.225;
   letter-spacing: 6px;
@@ -167,7 +173,7 @@ body {
 }
 .hero__center_content {
   font-family: Chronicle Display;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 600;
   color: white;
   line-height: 1.13;
@@ -242,10 +248,10 @@ body {
   width: 100%;
   position: relative;
   z-index: 1;
-  top: -200px;
+  top: -150px;
 }
 .content__items {
-  margin-top: -300px;
+  margin-top: -160px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,7 +277,7 @@ body {
   width: 100%;
   color: white;
   position: relative;
-  margin-left: 229px;
+  margin-left: 300px;
 }
 .content__val_first h2 {
   font-family: Chronicle Display;
@@ -294,11 +300,11 @@ body {
   opacity: 0.1;
   z-index: 1;
   position: absolute;
-  top: -90px;
+  top: -85px;
   left: -90px;
 }
 .content__val_first_heading--second {
-  left: -70px;
+  left: -85px;
 }
 .content__val_first article {
   display: flex;

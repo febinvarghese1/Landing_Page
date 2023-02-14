@@ -6,10 +6,10 @@
     width: 100%;
     position: relative;
     z-index: 1;
-    top: -200px;
+    top: -150px;
   }
   &__items {
-    margin-top: -300px;
+    margin-top: -160px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@
       width: 100%;
       color: white;
       position: relative;
-      margin-left: 229px;
+      margin-left: 300px;
       & h3 {
         @extend .hero__center_heading;
       }
@@ -62,11 +62,11 @@
         opacity: 0.1;
         z-index: 1;
         position: absolute;
-        top: -90px;
+        top: -85px;
         left: -90px;
 
         &--second{
-          left: -70px;
+          left: -85px;
         }
       }
 
