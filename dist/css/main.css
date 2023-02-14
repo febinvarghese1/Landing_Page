@@ -55,15 +55,11 @@ body {
   background-color: #0b1d26;
 }
 
-.main__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 .main__wrapper {
   max-width: 1440px;
   width: 100%;
+  position: relative;
+  margin: 0 auto;
   transition: all 0.5s ease;
 }
 
@@ -109,7 +105,7 @@ body {
   align-items: center;
   flex-direction: column;
   color: white;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 32px;
 }
 .hero__left span {
@@ -183,7 +179,8 @@ body {
   display: flex;
   align-items: flex-start;
   position: fixed;
-  right: 0;
+  margin-left: 1300px;
+  top: 25%;
   z-index: 10;
 }
 .hero__right_detail {
@@ -197,7 +194,7 @@ body {
   text-decoration: none;
   color: white;
   font-family: gilroyMed;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   text-align: right;
   margin-top: 40px;
@@ -242,17 +239,17 @@ body {
 }
 
 .content {
-  margin-top: 26em;
+  margin-top: 30em;
 }
 .content__cover {
   width: 100%;
   position: relative;
   z-index: 1;
   height: 100%;
-  top: -150px;
+  top: -140px;
 }
 .content__items {
-  margin-top: -160px;
+  margin-top: -155px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,7 +268,7 @@ body {
   margin-top: 200px;
 }
 .content__val:nth-child(1), .content__val--second:nth-child(1) {
-  margin-top: 0;
+  margin-top: -100px;
 }
 .content__val_first {
   max-width: 632px;
@@ -315,7 +312,8 @@ body {
 }
 .content__val_first article span {
   font-family: gilroyMed;
-  font-size: 18px;
+  font-size: 16px;
+  text-transform: lowercase;
   line-height: 22px;
 }
 .content__val_first article i {
@@ -340,7 +338,7 @@ body {
 }
 .content__val:nth-child(2) .content__val_first, .content__val--second:nth-child(2) .content__val_first {
   margin-left: 0;
-  margin-right: 229px;
+  margin-right: 200px;
 }
 .content__val:nth-child(2) .content__val_second, .content__val--second:nth-child(2) .content__val_second {
   margin-left: 229px;
@@ -364,9 +362,9 @@ body {
 }
 .footer__left p {
   font-family: gilroyMed;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 2.2;
   margin-top: 24px;
   width: 303px;
   margin-bottom: 122px;
@@ -386,8 +384,8 @@ body {
   font-family: gilroyMed;
   font-size: 14px;
   font-weight: 500;
-  line-height: 32px;
-  margin-top: 16px;
+  line-height: 2.2;
+  margin-top: 10px;
 }
 .footer__center ul li:nth-child(1), .footer__right ul li:nth-child(1) {
   color: #fbd784;

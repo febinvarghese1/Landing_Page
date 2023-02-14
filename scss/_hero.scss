@@ -9,7 +9,7 @@
     align-items: center;
     flex-direction: column;
     color: white;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 32px;
     & span {
       transform: rotate(90deg);
@@ -88,7 +88,8 @@
     display: flex;
     align-items: flex-start;
     position: fixed;
-    right: 0;
+    margin-left: 1300px;
+    top: 25%;
     z-index: 10;
     &_detail {
       margin-right: 32px;
@@ -101,7 +102,7 @@
         text-decoration: none;
         color: white;
         font-family: gilroyMed;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 22px;
         text-align: right;
         &:nth-child(1) {

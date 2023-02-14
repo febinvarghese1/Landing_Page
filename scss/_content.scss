@@ -1,16 +1,16 @@
 @use "./hero";
 
 .content {
-  margin-top: 26em;
+  margin-top: 30em;
   &__cover {
     width: 100%;
     position: relative;
     z-index: 1;
     height: 100%;
-    top: -150px;
+    top: -140px;
   }
   &__items {
-    margin-top: -160px;
+    margin-top: -155px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@
     z-index: 5;
     margin-top: 200px;
     &:nth-child(1){
-      margin-top: 0;
+      margin-top: -100px;
     }
     &_first {
       max-width: 632px;
@@ -78,7 +78,8 @@
         color: #fbd784;
         & span {
           font-family: gilroyMed;
-          font-size: 18px;
+          font-size: 16px;
+          text-transform: lowercase;
           line-height: 22px;
         }
 
@@ -118,7 +119,7 @@
     &:nth-child(2){
       .content__val_first{
         margin-left: 0;
-        margin-right: 229px;
+        margin-right: 200px;
       }
       .content__val_second{
         margin-left: 229px;
